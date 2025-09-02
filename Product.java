@@ -1,0 +1,65 @@
+
+public class Product {
+	String ProductName;
+	double Price;
+	double Gst;
+	double Discount;
+	int Quantity;
+	public static void main(String[] args) {
+		Product p1=new Product();
+		p1.ProductName="Chanel Bag";
+		p1.Price=200000;
+		p1.Gst=5;
+		p1.Discount=6;
+		p1.Quantity=3;
+		System.out.println("Product name is :"+p1.ProductName);
+		System.out.println("Price is :"+p1.Price);
+		System.out.println("GST is :"+p1.Gst+"%");
+		System.out.println("Discount is :"+p1.Discount+"%");
+		System.out.println("Quantity is :"+p1.Quantity);
+		Product p2=new Product();
+		p2.ProductName="MK Watch";
+		p2.Price=40000;
+		p2.Gst=4;
+		p2.Discount=5;
+		p2.Quantity=2;
+		System.out.println("Product name is :"+p2.ProductName);
+		System.out.println("Price is :"+p2.Price);
+		System.out.println("GST is :"+p2.Gst+"%");
+		System.out.println("Discount is :"+p2.Discount+"%");
+		System.out.println("Quantity is :"+p2.Quantity);
+		Product p3=new Product();
+		p3.ProductName="Giva jewellery";
+		p3.Price=20000;
+		p3.Gst=8;
+		p3.Discount=10;
+		p3.Quantity=4;
+		System.out.println("Product name is :"+p3.ProductName);
+		System.out.println("Price is :"+p3.Price);
+		System.out.println("GST is :"+p3.Gst+"%");
+		System.out.println("Discount is :"+p3.Discount+"%");
+		System.out.println("Quantity is :"+p3.Quantity);
+		Product p4=new Product();
+		p4.ProductName="Slippers";
+		p4.Price=2000;
+		p4.Gst=5;
+		p4.Discount=40;
+		p4.Quantity=6;
+		System.out.println("Product name is :"+p4.ProductName);
+		System.out.println("Price is :"+p4.Price);
+		System.out.println("GST is :"+p4.Gst+"%");
+		System.out.println("Discount is :"+p4.Discount+"%");
+		System.out.println("Quantity is :"+p4.Quantity);
+		Product p5=new Product();
+		p5.ProductName="Dress";
+		p5.Price=50000;
+		p5.Gst=10;
+		p5.Discount=15;
+		p5.Quantity=4;
+		System.out.println("Product name is :"+p5.ProductName);
+		System.out.println("Price is :"+p5.Price);
+		System.out.println("GST is :"+p5.Gst+"%");
+		System.out.println("Discount is :"+p5.Discount+"%");
+		System.out.println("Quantity is :"+p5.Quantity);
+	}
+}
